@@ -1,0 +1,35 @@
+.yellow-box {
+  width: 600px;
+  height: 400px;
+  background-color: yellow;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 40px;
+}
+.ping-box {
+  width: 400px;
+  height: 250px;
+  background-color: pink;
+  margin-top: 40px;
+  margin-left: 40px;
+  padding: 40px;
+}
+.text {
+  text-align: center;
+}
+.padding-top_1 {
+  padding-top: 200px;
+}
+.padding-top_2 {
+  padding-top: 200px;
+}
+.greybox {
+  width: 100px;
+  height: 300px;
+  background-color: grey;
+}
+.violetbox {
+  width: 350px;
+  height: 120px;
+  background-color: violet;
+}
