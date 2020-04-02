@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      h1.heading::before {
+        content: "*";
+      }
+      p::first-letter {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <heading>
+      <h1 class="heading">DOM Hierarchy</h1>
+      <form>
+        First Name: <br />
+        <input type="text" />
+        <br />
+      </form>
+      <form>
+        <input type="checkbox" name="happy" value="happy" checked /> I am happy
+        <br />
+        <input type="checkbox" name="sad" value="sad" /> I am sad <br />
+        <p>I am still in the dom</p>
+        <button type="sumbit">Submit</button>
+      </form>
+    </heading>
+    <script>
+      (function() {
+        let newPara = document.createElement("p");
+        newPara.innerHTML = "i am new";
+        let body = document.querySelector("body");
+        body.appendChild(newPara);
+      })();
+    </script>
+  </body>
+</html>
